@@ -11,6 +11,7 @@ RUN apk --update add \
 
 COPY mpd.conf /etc/mpd.conf
 COPY entrypoint.sh /usr/bin/entrypoint.sh
+RUN chmod a+rx /usr/bin/entrypoint.sh
 
 ENTRYPOINT "/usr/bin/entrypoint.sh"
 CMD ["--verbose"]
