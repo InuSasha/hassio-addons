@@ -13,4 +13,5 @@ COPY http.d/* /etc/nginx/http.d/
 
 
 COPY entrypoint* /usr/local/bin/
+RUN chmod a+x /usr/local/bin/entrypoint*
 ENTRYPOINT "/usr/local/bin/entrypoint.sh"
