@@ -1,7 +1,7 @@
 name: "Postgres 15"
 description: "A sophisticated object-relational DBMS, version 15."
 url: "https://github.com/InuSasha/hassio-postgresql15"
-version: "0.0.15"
+version: "1.0.0"
 slug: "postgresql15"
 arch:
   - aarch64

@@ -1,7 +1,7 @@
-name: "NGinx"
-description: "Ingress"
+name: "NGinx reverse proxy"
+description: "NGinx web reverse proxy with enabled docker tcp protocol forwarding."
 url: "https://github.com/InuSasha/hassio-nginx"
-version: "1.0.1"
+version: "1.0.2"
 slug: "nginx"
 arch:
   - aarch64

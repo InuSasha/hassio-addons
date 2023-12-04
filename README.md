@@ -6,7 +6,7 @@
 
 This repository contains the following add-ons
 
-### [MPD add-on](./hassio-mpd)
+### [MPD add-on](https://github.com/InuSasha/hassio-addons/tree/master/hassio-mpd)
 
 ![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]
@@ -21,7 +21,7 @@ _Music Player Daemon (MPD) is a flexible, powerful, server-side application for 
 [armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-### [NGinx reverse proxy add-on](./hassio-mpd)
+### [NGinx reverse proxy add-on](https://github.com/InuSasha/hassio-addons/tree/master/hassio-nginx)
 
 ![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]
@@ -36,7 +36,7 @@ _NGinx web reverse proxy with enabled docker tcp protocol forwarding._
 [armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-### [PostgreSQL 15 add-on](./hassio-mpd)
+### [PostgreSQL 15 add-on](https://github.com/InuSasha/hassio-addons/tree/master/hassio-postgres15)
 
 ![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]
@@ -51,3 +51,4 @@ _A sophisticated object-relational DBMS, version 15._
 [armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+
