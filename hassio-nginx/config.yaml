@@ -1,7 +1,7 @@
 name: "NGinx reverse proxy"
 description: "NGinx web reverse proxy with enabled docker tcp protocol forwarding."
 url: "https://github.com/InuSasha/hassio-nginx"
-version: "1.0.2"
+version: "1.0.3"
 slug: "nginx"
 arch:
   - aarch64
@@ -10,9 +10,6 @@ arch:
   - armv7
   - i386
 
-ports:
-  80/tcp: 80
-  443/tcp: 443
-  2376/tcp: 2376
-
+# needs original source ip
+host_network: true
 docker_api: true
