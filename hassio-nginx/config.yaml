@@ -2,7 +2,7 @@ name: "NGinx reverse proxy"
 description: "NGinx web reverse proxy with enabled docker tcp protocol forwarding."
 url: "https://github.com/InuSasha/hassio-addons/tree/master/hassio-nginx"
 
-version: "1.0.4-2"
+version: "1.0.4-3"
 slug: "nginx"
 
 arch:
