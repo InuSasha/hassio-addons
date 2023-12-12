@@ -1,8 +1,10 @@
 name: "Music Player Daemon"
 description: "Music Player Daemon (MPD) is a flexible, powerful, server-side application for playing music. Through plugins and libraries it can play a variety of sound files while being controlled by its network protocol."
-url: "https://github.com/InuSasha/hassio-mpd"
-version: "0.23.13-3"
+url: "https://github.com/InuSasha/hassio-addons/tree/master/hassio-mpd"
+
+version: "0.23.13-4"
 slug: "mpd"
+
 arch:
   - aarch64
   - amd64
