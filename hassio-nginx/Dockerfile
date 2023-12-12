@@ -12,9 +12,9 @@ RUN addgroup -g 102 nginx \
 
 RUN mkdir /ssl \
     && openssl genrsa -out /ssl/privkey.pem 2048 \
-    && openssl req -new -key privkey.pem -out fullchain.csr -subj "/C=DE/ST=DE/L=Leizig/O=InuSasha/CN=nginx-snakeoil" \
-    && openssl x509 -req -days 3650 -in fullchain.csr -signkey privkey.pem -out fullchain.pem \
-    && rm fullchain.csr
+    && openssl req -new -key /ssl/privkey.pem -out /ssl/fullchain.csr -subj "/C=DE/ST=DE/L=Leizig/O=InuSasha/CN=nginx-snakeoil" \
+    && openssl x509 -req -days 3650 -in /ssl/fullchain.csr -signkey /ssl/privkey.pem -out /ssl/fullchain.pem \
+    && rm /ssl/fullchain.csr
 
 COPY http.d/* /etc/nginx/http.d/
 
